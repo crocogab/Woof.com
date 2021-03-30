@@ -1,3 +1,8 @@
+html{
+    height: 100vh;
+    overflow: hidden;
+}
+
 img.resize {
     max-width:20%;
     max-height:20%;
@@ -9,6 +14,8 @@ img.resize {
 body {
     font-family:Impact, fantasy;
     background: url("./image/background.jpg");
+    background-repeat:no-repeat;
+    
     }
 
 .encadrement{ border: 2px solid whitesmoke; padding: 5px;
@@ -107,6 +114,12 @@ img.beagle {
 p.g {
     font: 35px Impact, fantasy;
 
+
+}
+
+p.h {
+    font: 45px Impact, fantasy;
+    padding: 275px 200px
 
 }
 
